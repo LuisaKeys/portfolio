@@ -78,7 +78,7 @@
     background: none;
     align-items: center;
     z-index: 2;
-    font-family: 'Bebas', cursive;
+    font-family: 'Bebas Neue';
     font-size: 20px;
     margin-top: 15px;
   }
@@ -242,6 +242,9 @@
     font-style: normal;
     font-weight: 400;
     color: #4c4c4c;
+  }
+  .inner-content-para img{
+    margin-top: 10px;
   }
   
   .inner-image-container {
@@ -665,5 +668,10 @@
       margin-bottom: 30px;
     }
 
+  }
+  @media(max-width: 816px){
+    .inner-content-para img{
+      height: 100%;
+  }
   }
   
