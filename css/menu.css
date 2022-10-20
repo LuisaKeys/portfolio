@@ -8,7 +8,7 @@
 }
 header img{
     margin-left: 10px;
-    width: 35px;
+    width: 43px;
 }
 
 header a {
@@ -19,8 +19,8 @@ header a {
 
 header {
   box-sizing: border-box;
-  height: 45px;
-  padding: 0.2rem;
+  height: 60px;
+  padding: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,7 +29,7 @@ header {
   width: 100%;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.418);
   z-index: 1;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue';
 }
 #menu {
   display: flex;
@@ -41,7 +41,7 @@ header {
   display: block;
   padding: 0.2rem;
   transition: .3s;
-  font-size: 15px;
+  font-size: 20px;
 
 }
 #btmenu {
@@ -51,7 +51,7 @@ header {
 .btn-contato{
     background: linear-gradient(90deg, #599EA3 0%, #4A647C 43.75%, #3D365E 100%);
     color: black;
-    padding: 1.7px;
+    padding: 1px 2.5px;
     border-radius: 2px;
     box-shadow: 0px 0px 18px 1px rgba(95, 86, 122, 0.34);
     -webkit-transition: box-shadow 0.25s;
@@ -63,23 +63,13 @@ header {
 .btn-contato:hover{
   box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
 }
-@media (min-width: 601px){
-    #submenu{
-        position: absolute;
-        right: 170px;
-        display: none;
-    }
-    nav ol li:hover #submenu{
-    display: block;
-}
-}
+
 
 @media (max-width: 519px) {
   #menu {
     display: block;
     position: absolute;
     width: 100%;
-    top: 70px;
     right: 0px;
     background: #060606be;
     transition: 0.6s;
@@ -87,6 +77,7 @@ header {
     height: 0px;
     visibility: hidden;
     overflow-y: hidden;
+    margin-right: 0;
   }
   nav.active #menu {
     height: calc(100vh - 70px);
