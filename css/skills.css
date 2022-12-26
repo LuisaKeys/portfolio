@@ -94,7 +94,7 @@ h2{
 #projetos .projeto{
     
     width: 290px;
-    height: 20em;
+    height: 24em;
     
     margin: 2em 1.5em;
     padding: 0.5em;
@@ -123,6 +123,10 @@ h2{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-left: 21px;
 }
+.projeto .tech{
+    font-weight: bold;
+}
+
 .projeto h3{
     color: #3D365E;
     text-align: center;
@@ -132,6 +136,24 @@ h2{
 }
 .projeto .btnler-mais{
     margin-left: 15px;
+}
+.projeto .topics{
+    display: flex;
+    margin-left: 17px;
+}
+.projeto .topic{
+    background: #41446852;
+    color: #414468;
+    text-decoration: none;
+    margin-left: 4px;
+    margin-top: 6px;
+    padding: 3px 6px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+.projeto .topic:hover{
+    background-color: #3D365E;
+    color: white;
 }
 .btn-code{
     display: flex;
