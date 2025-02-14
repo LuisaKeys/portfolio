@@ -7,14 +7,25 @@
     
 }
 header img{
-    margin-left: 10px;
-    width: 43px;
+    width: 25px;
 }
 
 header a {
   color: #5F567A; 
   text-decoration: none;
-  font-weight: bolder;
+  
+}
+
+.container-header{
+  margin: 0 auto;
+    text-align: center;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.089);
+    background-color: white;
+    position: fixed;
 }
 
 header {
@@ -24,24 +35,22 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: black;
-  position: fixed;
-  width: 100%;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.418);
+ 
+  width: 70vw;
   z-index: 1;
-  font-family: 'Bebas Neue';
+
 }
 #menu {
   display: flex;
   list-style: none;
   gap: 0.5rem;
-  margin-right: 15px;
 }
 #menu a {
   display: block;
   padding: 0.2rem;
   transition: .3s;
-  font-size: 20px;
+  font-size: 12px;
+  font-weight: 500;
 
 }
 #btmenu {
@@ -50,15 +59,15 @@ header {
 }
 .btn-contato{
     background: linear-gradient(90deg, #599EA3 0%, #4A647C 43.75%, #3D365E 100%);
-    color: black;
-    padding: 1px 2.5px;
+    color: white;
     border-radius: 2px;
     box-shadow: 0px 0px 18px 1px rgba(95, 86, 122, 0.34);
     -webkit-transition: box-shadow 0.25s;
     transition: box-shadow 0.25s;
+    padding: 3px 6.5px;
 }
 .btn-contato a{
-    color: black;
+    color: white;
 }
 .btn-contato:hover{
   box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
@@ -71,7 +80,7 @@ header {
     position: absolute;
     width: 100%;
     right: 0px;
-    background: #060606be;
+    background: #d6d6d6be;
     transition: 0.6s;
     z-index: 1000;
     height: 0px;
@@ -83,6 +92,7 @@ header {
     height: calc(100vh - 70px);
     visibility: visible;
     overflow-y: auto;
+    margin-right: 0;
   }
   #menu a {
     padding: 1rem 0;

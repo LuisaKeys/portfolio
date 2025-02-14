@@ -12,21 +12,24 @@
       </head>
       
       <body>
-        <header>
-          <a href="#inicio"><img src="assets/logo-luisakeys.png" alt="logo-luisakeys"></a>
-        <nav id="nav">
-            <button aria-label="Abrir Menu" id="btmenu" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
-                <span></span>
-              </button>
-            <ol id="menu">
-                <li><a href="#inicio">INÍCIO</a></li>
-                <li><a href="#skills">COMPETÊNCIAS</a></li>
-                <li><a href="#projetos">PROJETOS</a></li>
-                <li><a href="#sobre">SOBRE</a></li>
-                <li class="btn-contato"><a href="https://mailto:luisalima0602@gmail.com/">CONTATO</a></li>
-            </ol>
-        </nav>
-        </header>
+        <div class="container-header">
+          <header>
+            <a href="#inicio"><img src="assets/logo-luisakeys.png" alt="logo-luisakeys"></a>
+          <nav id="nav">
+              <button aria-label="Abrir Menu" id="btmenu" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                  <span></span>
+                </button>
+              <ol id="menu">
+                  <li><a href="#inicio">INÍCIO</a></li>
+                  <li><a href="#skills">COMPETÊNCIAS</a></li>
+                  <li><a href="#projetos">PROJETOS</a></li>
+                  <li><a href="#sobre">SOBRE</a></li>
+                  <li class="btn-contato"><a href="https://mailto:luisalima0602@gmail.com/">CONTATO</a></li>
+              </ol>
+          </nav>
+          </header>
+        </div>
+        
         
           <!-- header ends -->
           
@@ -50,11 +53,11 @@
           
         </main>
 
-        <section id="skills">
+        <section class="container" id="skills">
           <h2>COMPETÊNCIAS</h2>
           <div class="containers">
               
-              <div class="skill">
+              <div class="skill" style="margin-right: 2em">
                 <img src="assets/arq-info.png" class="ctn-img">
                 <h3>
                     ARQUITETURA DA INFORMAÇÃO
@@ -64,7 +67,7 @@
                 </p>
                 <a href="https://rockcontent.com/br/blog/arquitetura-da-informacao/" class="btn-lermais" target="_blank">LER MAIS<span></span></a>
             </div>
-            <div class="skill">
+            <div class="skill" style="margin-right: 2em">
               <img src="assets/poo.png" class="ctn-img">
               <h3>PROGRAMAÇÃO ORIENTADA OBJETOS</h3>
               <p>
@@ -83,7 +86,10 @@
           </div>
       </section>
       <section id="projetos">
-          <h2>PROJETOS</h2>
+        <div class="container" style="margin-bottom: 10px;">
+          <h2 style="margin-bottom: 0;">PROJETOS</h2>
+        </div>
+        
           <div class="bg">
               <div class="containers">
                   <div class=projeto>
